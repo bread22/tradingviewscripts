@@ -1,0 +1,11 @@
+//@version=4
+study(title="Moving Average Exponential", shorttitle="EMA", overlay=true, resolution="")
+
+plot(ema(close, 8), title="EMA8", color=color.blue, offset=0)
+plot(ema(close, 13), title="EMA13", color=color.red, offset=0)
+plot(ema(close, 21), title="EMA21", color=color.aqua, offset=0)
+plot(ema(close, 34), title="EMA34", color=color.green, offset=0)
+plot(ema(close, 55), title="EMA55", color=color.yellow, offset=0)
+plot(ema(close, 89), title="EMA89", color=color.purple, offset=0)
+plot(ema(close, 144), title="EMA144", color=color.teal, offset=0)
+plot(ema(close, 233), title="EMA233", color=color.navy, offset=0)
